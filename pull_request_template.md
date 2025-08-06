@@ -1,24 +1,39 @@
-## Description
-This feature adds the ability to generate a daily wisdom quote for users. This includes a new quote generator function and endpoint that will provide a different quote to users each day.
+# PR Background and Summary
+*Provide a brief background summary or ticket with more information*
 
-## Changes
-- Added `quoteGenerator.js` in `src/utils` for generating random wisdom quotes.
-- Created a new route `api/quote/daily` which uses the quote generator to send a daily wisdom quote.
-- Updated the user dashboard component to display the daily quote.
+# Testing
+*Provide information on how this change was tested (e.g. unit tests, tested on synthetic data, deployed and clicked through on Dev, etc)*
 
-## Testing
-New unit and integration tests written and passed successfully. Manual tests in local dev environment yielded expected results / No changes to the existing tests were required for this feature.
+# Screenshots/Video
+*Provide screenshots or a video with more detail if it helps reviewers with context*  
 
-## Background Context
-Implemented a random selection algorithm for the Daily Wisdom feature in `quoteGenerator.js`. This solution provides an efficient and scalable way to provide different wisdom quotes to users each day. Considered other algorithms but chose this for its simplicity and performance benefits. Potential trade-off could be repetitiveness of quotes if the database isn't large enough.
+# Expected Review Time
+*Provide the expected time for review and justification for this time*
 
-## Screenshots
-(in GitHub, you can directly paste screenshots into most text fields. To do this, simply press Ctrl + V (or Command + V on Mac) where you'd like the screenshot to appear in the text. GitHub will automatically upload and embed the image for you)
-![image](https://github.com/health-navigator/test/assets/139250775/aeaa096c-fdff-4465-bb52-428c653ad7c4)
+# Resolves Jira Task
 
-## Related Tasks
-- [Task #11: Single Source of Truth + Kanban board for Tech](https://www.notion.so/Single-Source-of-Truth-Kanban-board-for-Tech-b27ef45417394885b94c009b041afaec?pvs=4)
-- [Task #73: DSEC Terraform](https://www.notion.so/Setup-Notion-97993643cf6f49c393af4d77e05f014a?pvs=21)
+[CB-]("https://hn-company.atlassian.net/browse/CB-")
 
-##
-Resolves [#42](https://www.notion.so/c492efa8c6f9461a9228890eb7f569cf?pvs=21)
+# PR Writer's Final Checks
+
+- [ ] Do all the unit tests pass?
+- [ ] Does this PR affect the unit tests of any other module?
+- [ ] Do you need to include a Loom video?
+- [ ] Have you included an expected review time?
+- [ ] Have you checked for SonarCloud issues?
+- [ ] Does any documentation need to be written or updated in Notion?
+- [ ] Take a well-earned break, stretch! 🥳
+
+# Checklist for Reviewer
+*Add PR-specific checks to this list*
+- [ ] Check for the formatting of the module:
+    - [ ] Are the docstrings sufficient?
+    - [ ] Are the variable names clear to understand and include typehints?
+    - [ ] Is the code easy to follow?
+- [ ] Are the functions single responsibility?
+- [ ] Are there SonarCloud issues?
+- [ ] Do the unit tests handle all expected situations?
+    - [ ] Do they consider nulls?
+    - [ ] Missing columns?
+    - [ ] Edge cases?
+- [ ] Is there Notion documentation, if beneficial?
