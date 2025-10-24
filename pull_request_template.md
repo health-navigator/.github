@@ -17,6 +17,7 @@
 # PR Writer's Final Checks
 
 - [ ] Do all the unit tests pass?
+- [ ] Have you included a migration for any entity changes?
 - [ ] Does this PR affect the unit tests of any other module?
 - [ ] Do you need to include a Loom video?
 - [ ] Have you included an expected review time?
@@ -31,6 +32,7 @@
     - [ ] Are the variable names clear to understand and include typehints?
     - [ ] Is the code easy to follow?
 - [ ] Are the functions single responsibility?
+- [ ] If there are entity changes, is a migration file included?
 - [ ] Are there SonarCloud issues?
 - [ ] Do the unit tests handle all expected situations?
     - [ ] Do they consider nulls?
