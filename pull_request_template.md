@@ -12,5 +12,5 @@
 
 # Resolves Jira Task
 
-[CB-]("https://hn-company.atlassian.net/browse/CB-")
+[CB-](https://hn-company.atlassian.net/browse/CB-)
 
