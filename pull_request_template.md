@@ -14,28 +14,3 @@
 
 [CB-]("https://hn-company.atlassian.net/browse/CB-")
 
-# PR Writer's Final Checks
-
-- [ ] Do all the unit tests pass?
-- [ ] Have you included a migration for any entity changes?
-- [ ] Does this PR affect the unit tests of any other module?
-- [ ] Do you need to include a Loom video?
-- [ ] Have you included an expected review time?
-- [ ] Have you checked for SonarCloud issues?
-- [ ] Does any documentation need to be written or updated in Notion?
-- [ ] Take a well-earned break, stretch! 🥳
-
-# Checklist for Reviewer
-*Add PR-specific checks to this list*
-- [ ] Check for the formatting of the module:
-    - [ ] Are the docstrings sufficient?
-    - [ ] Are the variable names clear to understand and include typehints?
-    - [ ] Is the code easy to follow?
-- [ ] Are the functions single responsibility?
-- [ ] If there are entity changes, is a migration file included?
-- [ ] Are there SonarCloud issues?
-- [ ] Do the unit tests handle all expected situations?
-    - [ ] Do they consider nulls?
-    - [ ] Missing columns?
-    - [ ] Edge cases?
-- [ ] Is there Notion documentation, if beneficial?
